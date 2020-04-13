@@ -8,5 +8,7 @@ routes.post('/createUser', UserController.createUser);
 routes.post('/addToLine', FifoController.addToLine);
 routes.post('/findPosition', FifoController.findPosition);
 routes.get('/showLine', FifoController.showLine);
+routes.post('/filterLine', FifoController.filterLine);
+routes.post('/popLine', FifoController.popLine);
 
 module.exports = routes;

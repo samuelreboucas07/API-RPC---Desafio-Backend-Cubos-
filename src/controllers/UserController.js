@@ -4,15 +4,18 @@ const uniqid = require('uniqid');
 module.exports = {
 
     async createUser(req, res){
-        const user = await db.get('Users')
+        const idUser = uniqid();
+        await db.get('Users')
         .push({
-                id: uniqid(), 
+                id: idUser, 
                 name: req.body.name, 
                 email: req.body.email, 
                 genre: req.body.genre
             })
         .write()
-        //Error
+        const user = await db.get('Users')
+                    .find({id: idUser})
+                    .value()
         res.json({user})
     }
 }
