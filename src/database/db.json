@@ -1,0 +1,24 @@
+{
+  "Users": [
+    {
+      "id": "49q6grk8xpqds7",
+      "name": "Samuel",
+      "email": "samuelreboucas07@hotmail.com",
+      "genre": "Masculino"
+    },
+    {
+      "id": "49q769k8xq945z",
+      "name": "João",
+      "email": "joão@hotmail.com",
+      "genre": "Masculino"
+    }
+  ],
+  "Fifo": [
+    {
+      "idUser": "49q769k8xq945z"
+    },
+    {
+      "idUser": "49q6grk8xpqds7"
+    }
+  ]
+}

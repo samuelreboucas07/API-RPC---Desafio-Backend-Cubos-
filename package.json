@@ -1,0 +1,30 @@
+{
+  "name": "api-rpc---desafio-backend-cubos-",
+  "version": "1.0.0",
+  "description": "Projeto requerido no processo seletivo para estágio como desenvolvedor Backend na empresa Cubos Tecnologia.  Desenvolvimento de uma API RPC utilizando nodejs.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelreboucas07/API-RPC---Desafio-Backend-Cubos-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelreboucas07/API-RPC---Desafio-Backend-Cubos-/issues"
+  },
+  "homepage": "https://github.com/samuelreboucas07/API-RPC---Desafio-Backend-Cubos-#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "loadsh": "0.0.4",
+    "lowdb": "^1.0.0",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
