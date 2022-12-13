@@ -20,7 +20,7 @@
   "homepage": "https://github.com/samuelreboucas07/API-RPC---Desafio-Backend-Cubos-#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "loadsh": "0.0.4",
     "lodash": "^4.17.15",
     "lowdb": "^1.0.0",
